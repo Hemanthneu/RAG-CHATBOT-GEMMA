@@ -5,7 +5,7 @@ from utils.ui_settings import UISettings
 from utils.load_config import LoadConfig
 
 APPCFG = LoadConfig()
-# # Prepare the LLm and Tokenizer
+#  Prepare the LLm and Tokenizer
 # tokenizer = AutoTokenizer.from_pretrained(
 #     APPCFG.llm_engine, token=APPCFG.gemma_token, device=APPCFG.device)
 # model = model = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path="google/gemma-7b-it",
